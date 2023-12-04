@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    color: lightblue;
+    font-family: verdana;
+}
+
+#h11,
+#h12 {
+    margin-bottom: 50px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#h12 {
+    margin-top: 50px;
+}
+
+#form {
+    text-align: center;
+}
+
+input,
+button{
+    width: 150px;
+    height: 30px;
+    background: lightblue;
+    color: blue;
+    font-size: 1em;
+    border: 3px solid blue;
+    border-radius: 8px;
+    font-weight: 600;
+    text-align: center;
+}
+
+button {
+    width: 80px;
+    height: 30px;
+    color: blue;
+    font-weight: 600;
+}
+
+table {
+    width: 90%;
+    margin: 10px auto;
+    background: lightblue;
+    color: blue;
+    border: 3px solid blue;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 3px solid blue;
+    padding: 15px;
+}
+
+#form2 {
+    text-align: center;
+}
+
+.car-block {
+    width: 30%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.car-block:hover {
+    background-color: lightblue;
+    cursor: pointer;
+    color: blue;
+}
+
+.car-block img {
+    max-width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.car-block h3 {
+    margin-bottom: 5px;
+}
+
+.car-block p {
+    margin: 0;
+}
